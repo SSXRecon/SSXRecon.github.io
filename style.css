@@ -1,0 +1,64 @@
+.container {
+    display:flex;
+    height: 85vh
+}
+
+body > header {
+    text-align: center;
+}
+
+body > header > h1 {
+    text-align: center;
+}
+
+
+body > main > div > aside {
+    width: 150px;
+    color: black;
+    padding: 15px;
+    background-color: #f6f6f6;
+    margin-right: 20px;
+    border-radius: 15px;
+    position: relative;
+}
+
+body > main > div > aside > section > ul {
+    padding: 0px;
+    margin: 10px;
+}
+
+body > main > div > aside > section > ul::before { content: '• '; }
+
+body > main > div > main {
+    flex-grow: 1;
+    padding: 20;
+    margin-left: 10px;
+    overflow-y: scroll;
+    height: 85vh;
+}
+
+body > main > div > main > article {
+    padding: 20px;
+    border: 1 solid #ccc;
+    margin-bottom: 20px;
+    background-color: #f6f6f6;
+    border-radius: 15px;
+}
+
+.article-content {
+    display: flex;
+}
+
+.image {
+    width: 100px;
+    height: auto;
+    margin-left: 15px;
+  }
+
+body > footer > h3 {
+    margin-right: 20px;
+}
+
+body > footer > a {
+    margin-top: 20px;
+}
